@@ -1,0 +1,27 @@
+revenue-intelligence-forecasting/
+│
+├── README.md
+│
+├── sql/
+│   ├── 01_raw_table_setup.sql
+│   ├── 02_data_modeling.sql
+│   ├── 03_business_kpis.sql
+│
+├── powerbi/
+│   ├── dashboard_screenshots/
+│   │   ├── executive_overview.png
+│   │   ├── product_pricing_insights.png
+│   │   └── finance_view.png
+│   └── dashboard_description.md
+│
+├── python/
+│   ├── revenue_forecasting.py
+│   └── requirements.txt
+│
+├── data/
+│   └── sample_monthly_revenue.csv
+│
+└── docs/
+    ├── business_problem.md
+    ├── model_decisions.md
+    └── insights_and_recommendations.md
